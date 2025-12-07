@@ -13,6 +13,9 @@ public class Log4j {
   @Test   //log4j use for information print in the console and html format in the log folder below referenced Libraries
   			// in side the log folder we have file name with html so we have to open with web. 
   public void logInModule() throws InterruptedException {
+	  
+	  driver.get("https://techlearn.in");
+	  
 	  Logger log =  Logger.getLogger("logIn Module");
 	  PropertyConfigurator.configure("log4j.properties");
 	  
