@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-06T12:58:20 IST" name="Default suite" finished-at="2025-12-06T12:58:44 IST" duration-ms="23394">
+    <groups>
+    </groups>
+    <test started-at="2025-12-06T12:58:20 IST" name="Default test" finished-at="2025-12-06T12:58:44 IST" duration-ms="23394">
+      <class name="testng.Log4j">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testng.Log4j@7a675056]" started-at="2025-12-06T12:58:20 IST" name="beforeTest" finished-at="2025-12-06T12:58:22 IST" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="logInModule()[pri:0, instance:testng.Log4j@7a675056]" started-at="2025-12-06T12:58:22 IST" name="logInModule" finished-at="2025-12-06T12:58:43 IST" duration-ms="21062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInModule -->
+      </class> <!-- testng.Log4j -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

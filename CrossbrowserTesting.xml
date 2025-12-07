@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name = "Chrome browser test case">
+  <parameter name ="browser" value = "Chrome"></parameter>
+    <classes>
+      <class name="testng.CrossBrowserTesting"/>
+    </classes>
+    
+  </test> <!-- Test -->
+  <test name ="Firefox browser test case">
+  <parameter name = "browser" value = "Firefox"></parameter>
+  <classes>
+  <class name = "testng.CrossBrowserTesting"></class>
+  </classes>
+  </test>
+  
+  <test name = "Edge browser test case">
+  <parameter name = "browser" value ="Edge"></parameter>
+  <classes>
+  <class name = "testng.CrossBrowserTesting"></class>
+  </classes>
+  </test>
+</suite> <!-- Suite -->
