@@ -1,6 +1,7 @@
 package testng;
 
 import org.testng.annotations.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
@@ -10,7 +11,7 @@ public class LoginForGitHub {
   @Test
   public void f() {
 	  driver.get("https://www.google.com");
-	  driver.findElement(by.name("q")).sendKeys("Hello_gitHub");
+	  driver.findElement(By.name("q")).sendKeys("Hello_gitHub");
   }
 	@Test
 	public void admin(){
