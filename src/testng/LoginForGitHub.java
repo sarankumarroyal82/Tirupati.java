@@ -12,6 +12,10 @@ public class LoginForGitHub {
 	  driver.get("https://www.google.com");
 	  driver.findElement(by.name("q")).sendKeys("Hello_gitHub");
   }
+	@Test
+	public void admin(){
+		driver.get("https://www.techlearn.in");
+	}
   @BeforeTest
   public void beforeTest() {
 	  driver = new ChromeDriver();
