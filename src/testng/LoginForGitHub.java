@@ -10,6 +10,7 @@ public class LoginForGitHub {
   @Test
   public void f() {
 	  driver.get("https://www.google.com");
+	  driver.findElement(by.name("q")).sendKeys("Hello_gitHub");
   }
   @BeforeTest
   public void beforeTest() {
