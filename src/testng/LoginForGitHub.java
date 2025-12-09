@@ -21,6 +21,7 @@ public class LoginForGitHub {
   public void beforeTest() {
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
+	  driver.close();
   }
-
+ 
 }
