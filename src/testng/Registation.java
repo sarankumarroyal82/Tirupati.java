@@ -10,6 +10,7 @@ public class Registation {
   @Test
   public void google() {
 	  driver.get("https://www.google.com");
+	  driver.findElement(by.name("q").sendKeys("tirupati");
   }
   @BeforeTest
   public void beforeTest() {
